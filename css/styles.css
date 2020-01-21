@@ -1,14 +1,78 @@
+/******************************** STRUCTURE *******************************/
+
+
 body {
   background-color: #35495e;
   font-family:"Lucida Console", Monaco, monospace;
   font-size:100%;
+  margin: 0;
 }
+
+
+
+
+/************************ STRUCTURE: CLASSES **********************************/
+
+.top {
+  padding: 20px;
+  width: 900px;
+  height:auto;
+  margin:auto;
+  box-sizing: border-box;
+}
+
+.twocolumn {
+  box-sizing: border-box;
+  background-color: #35495e;
+  max-width: 100%;
+  margin: 0;
+}
+
+.circle {
+  border-radius: 100%;
+  width: 100%;
+  height:auto;
+}
+
+/******************************** IDs *************************************/
+
+
+
+/******************************** TEXT *************************************/
 
 
 p {
   color: #ffff;
   font-family: "Lucida Console", Monaco, monospace;
 }
+
+em {
+  color: #63b7af
+}
+
+li {
+  color: #ffff;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+label {
+  background-color: #63b7af;
+  color: #000000;
+
+}
+/*********************** TEXT: CLASSES *************************************/
+
+.alignmiddle {
+  text-align: center;
+}
+
+.dark {
+  color: #ffff;
+}
+
+
+/***************************** LIST/TABLES ***********************************/
+
 
 td {
   color: #ffff;
@@ -20,13 +84,24 @@ ul {
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+/***************************** LIST/TABLES ***********************************/
+
+
+
+/************************** HORIZONTAL RULE  **************************/
+
+
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  width: 30%;
-  border-color: #ffff;
-  border-width: 10px;
+  border-style: dashed;
+  width: 20%;
+  border-color: grey;
+  border-width: 5px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
+
+/******************************** HEADERS *************************************/
+
 
 h1 {
   color: #ee8572;
@@ -48,6 +123,9 @@ h3{
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+/******************************** LINKS *************************************/
+
+
 a:link {
   color: #63b7af;
   font-size: 100%;
@@ -63,7 +141,7 @@ a:visited {
 }
 
 a:hover {
-  color: #347474;
+  color: #ee8572;
   font-size: 100%;
   text-decoration: underline;
 }
